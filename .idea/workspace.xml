@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26a6ea58-3334-4db8-a9f4-8c63519e0955" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AjustesExistenciasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AperturasCajasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AppController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AsientosController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CajasAddController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CajasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ClientesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CobrosController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ComprasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ComprasTmpController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ConfiguracionContableController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ConfiguracionSistemaController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CuentasCajasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CuentasCorrientesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CuentasFondosController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CursosController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DepositosController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesAnticipoClientesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesAnticipoProveedoresController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesAsientosController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesCajasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesCobrosController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesComprasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesMovimientosBancosController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesPedidosConsignacionController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesPedidosVentasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesPreVentasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesTesoreriasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesVentasConsignacionController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesVentasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/LocalesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/LockProductos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MonedasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MovimientoCuentasFondosController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MovimientosBancosController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PedidoVentasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PlanDeCuentasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PreVentasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProductosController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProveedoresController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/StockController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/TesoreriasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/TimbradosController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/VencimientosComprasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/VencimientosVentasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/VentasConsignacionController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/VentasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/VentasTmpController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/AjustesExistenciasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/AperturasCajasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/AsientosTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/CajasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/ClientesTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/CobrosTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/ComprasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/ComprasTmpTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/ConfiguracionContableTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/ConfiguracionSistemaTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/CuentasCajasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/CuentasCorrientesTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/CuentasFondosTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/CursosTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/DepositosTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesAnticipoClientesTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesAnticipoProveedoresTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesAsientosTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesCajasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesCobrosTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesComprasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesMovimientosBancosTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesPedidosConsignacionTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesPedidosVentasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesPreVentasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesTesoreriasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesVentasConsignacionTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesVentasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/FormasPagosTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/LocalesTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/MonedasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/MovimientoCuentasFondosTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/MovimientosBancosTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/PedidoVentasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/PlanDeCuentasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/PreVentasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/ProductosTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/ProveedoresTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/StockTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/TesoreriasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/TimbradosTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/VencimientosComprasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/VencimientosVentasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/VentasConsignacionTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/VentasTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/VentasTmpTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/AjustesExistencias/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/AjustesExistencias/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/AjustesExistencias/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/AjustesExistencias/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/AperturasCajas/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/AperturasCajas/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/AperturasCajas/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/AperturasCajas/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Asientos/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Asientos/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Asientos/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Asientos/nodata.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Asientos/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Cajas/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Cajas/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Cajas/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Cajas/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Clientes/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Clientes/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Clientes/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Clientes/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Cobros/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Cobros/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Cobros/estado.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Cobros/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Cobros/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Compras/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Compras/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Compras/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Compras/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/ComprasTmp/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/ComprasTmp/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/ComprasTmp/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/ComprasTmp/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/ConfiguracionContable/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/ConfiguracionContable/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/ConfiguracionContable/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/ConfiguracionContable/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/ConfiguracionSistema/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/ConfiguracionSistema/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/ConfiguracionSistema/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/ConfiguracionSistema/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/CuentasCajas/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/CuentasCajas/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/CuentasCajas/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/CuentasCajas/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/CuentasCorrientes/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/CuentasCorrientes/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/CuentasCorrientes/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/CuentasCorrientes/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/CuentasFondos/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/CuentasFondos/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/CuentasFondos/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/CuentasFondos/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Cursos/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Cursos/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Cursos/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Cursos/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Depositos/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Depositos/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Depositos/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Depositos/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAnticipoClientes/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAnticipoClientes/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAnticipoClientes/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAnticipoClientes/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAnticipoProveedores/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAnticipoProveedores/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAnticipoProveedores/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAnticipoProveedores/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAsientos/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAsientos/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAsientos/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAsientos/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCajas/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCajas/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCajas/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCajas/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCobros/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCobros/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCobros/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCobros/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCompras/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCompras/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCompras/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCompras/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesMovimientosBancos/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesMovimientosBancos/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesMovimientosBancos/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesMovimientosBancos/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPedidosConsignacion/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPedidosConsignacion/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPedidosConsignacion/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPedidosConsignacion/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPedidosVentas/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPedidosVentas/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPedidosVentas/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPedidosVentas/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPreVentas/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPreVentas/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPreVentas/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPreVentas/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesTesorerias/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesTesorerias/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesTesorerias/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesTesorerias/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesVentas/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesVentas/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesVentas/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesVentas/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesVentasConsignacion/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesVentasConsignacion/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesVentasConsignacion/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DetallesVentasConsignacion/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/FormasPagos/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/FormasPagos/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/FormasPagos/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/FormasPagos/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Locales/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Locales/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Locales/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Locales/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Monedas/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Monedas/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Monedas/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Monedas/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/MovimientoCuentasFondos/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/MovimientoCuentasFondos/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/MovimientoCuentasFondos/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/MovimientoCuentasFondos/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/MovimientosBancos/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/MovimientosBancos/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/MovimientosBancos/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/MovimientosBancos/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/PedidoVentas/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/PedidoVentas/copy.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/PedidoVentas/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/PedidoVentas/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/PedidoVentas/mapas.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/PedidoVentas/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Perfil/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Perfil/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Perfil/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Perfil/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/PlanDeCuentas/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/PlanDeCuentas/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/PlanDeCuentas/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/PlanDeCuentas/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/PreVentas/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/PreVentas/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/PreVentas/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/PreVentas/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Productos/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Productos/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Productos/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Productos/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Proveedores/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Proveedores/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Proveedores/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Proveedores/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Stock/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Stock/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Stock/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Stock/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Tesorerias/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Tesorerias/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Tesorerias/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Tesorerias/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Timbrados/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Timbrados/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Timbrados/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Timbrados/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/VencimientosCompras/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/VencimientosCompras/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/VencimientosCompras/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/VencimientosCompras/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/VencimientosVentas/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/VencimientosVentas/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/VencimientosVentas/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/VencimientosVentas/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/pos.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/posconsignacion.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/print-ticket.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/ticket_interno.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/ticket_pedido.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/VentasConsignacion/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/VentasConsignacion/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/VentasConsignacion/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/VentasConsignacion/posconsignacion.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/VentasConsignacion/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/VentasTmp/add.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/VentasTmp/edit.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/VentasTmp/index.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/VentasTmp/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_panels" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_panels" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_requests" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_requests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_empresas" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_empresas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_usuarios_empresas" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_usuarios_empresas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_debug_kit_en__u_s" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_debug_kit_en__u_s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/debug_kit.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/debug_kit.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/js/controladores/menu/controllerHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/js/controladores/menu/controllerHome.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/robmorgan/phinx" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/cakedc/enum" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/cakephp/cakephp" />
+      <path value="$PROJECT_DIR$/vendor/cakephp/plugin-installer" />
+      <path value="$PROJECT_DIR$/vendor/cakephp/migrations" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/cakephp/bake" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/cakephp/chronos" />
+      <path value="$PROJECT_DIR$/vendor/cakephp/debug_kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/aura/installer-default" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/aura/intl" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/mobiledetect/mobiledetectlib" />
+      <path value="$PROJECT_DIR$/vendor/friendsofcake/bootstrap-ui" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1Uqdn7rIk7pQAQ27yVHmFOKwRdP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webroot/js/controladores/ingresos" />
+      <recent name="$PROJECT_DIR$/webroot/js/controladores/mapas" />
+      <recent name="$PROJECT_DIR$/src/Template/PedidoVentas" />
+      <recent name="$PROJECT_DIR$/src/Template/Layout" />
+      <recent name="$PROJECT_DIR$/src/Template/Ventas" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.ctp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pdv/Template/PedidoVentas/index.ctp" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.ctp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26a6ea58-3334-4db8-a9f4-8c63519e0955" name="Default" comment="" />
+      <created>1529939973507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529939973507</updated>
+      <workItem from="1529939974610" duration="8469000" />
+      <workItem from="1529980191039" duration="498000" />
+      <workItem from="1530029577339" duration="4000" />
+      <workItem from="1530029586157" duration="4826000" />
+      <workItem from="1530200744423" duration="1498000" />
+      <workItem from="1530208124620" duration="1259000" />
+      <workItem from="1530642738168" duration="5931000" />
+      <workItem from="1530719696003" duration="1264000" />
+      <workItem from="1530885403770" duration="4109000" />
+      <workItem from="1531262186938" duration="1142000" />
+      <workItem from="1531281469851" duration="3619000" />
+      <workItem from="1531592270553" duration="1710000" />
+      <workItem from="1532481900716" duration="1112000" />
+      <workItem from="1558971629314" duration="6365000" />
+      <workItem from="1558987741931" duration="2053000" />
+      <workItem from="1559008211292" duration="633000" />
+      <workItem from="1559012275704" duration="484000" />
+      <workItem from="1559015784720" duration="17047000" />
+      <workItem from="1559074575533" duration="2331000" />
+      <workItem from="1559078509976" duration="9185000" />
+      <workItem from="1559414550171" duration="9686000" />
+      <workItem from="1560169742484" duration="326000" />
+      <workItem from="1560718860003" duration="1740000" />
+      <workItem from="1561079423882" duration="68000" />
+      <workItem from="1561079514572" duration="2056000" />
+      <workItem from="1561083170264" duration="1259000" />
+      <workItem from="1561085324225" duration="37000" />
+      <workItem from="1561085411429" duration="104000" />
+      <workItem from="1561085531097" duration="1688000" />
+      <workItem from="1561241472775" duration="2573000" />
+      <workItem from="1561251045157" duration="1307000" />
+      <workItem from="1561255713855" duration="225000" />
+      <workItem from="1561303670778" duration="6095000" />
+      <workItem from="1561336424841" duration="2075000" />
+      <workItem from="1561344258636" duration="431000" />
+      <workItem from="1561344709682" duration="639000" />
+      <workItem from="1561727828202" duration="406000" />
+      <workItem from="1561926813650" duration="1517000" />
+      <workItem from="1561928824755" duration="320000" />
+      <workItem from="1561929327173" duration="444000" />
+      <workItem from="1561929794020" duration="110000" />
+      <workItem from="1561930314094" duration="48000" />
+      <workItem from="1561931475412" duration="1482000" />
+      <workItem from="1561938598721" duration="14000" />
+      <workItem from="1561938629829" duration="5405000" />
+      <workItem from="1561946881109" duration="3338000" />
+      <workItem from="1561983958225" duration="157000" />
+      <workItem from="1561986803283" duration="649000" />
+      <workItem from="1562026271673" duration="3000" />
+      <workItem from="1562070925907" duration="314000" />
+      <workItem from="1562072442525" duration="293000" />
+      <workItem from="1562072941881" duration="32000" />
+      <workItem from="1562072996531" duration="1543000" />
+      <workItem from="1562088566632" duration="705000" />
+      <workItem from="1562091184489" duration="3140000" />
+      <workItem from="1562155571344" duration="442000" />
+      <workItem from="1562163460219" duration="228000" />
+      <workItem from="1562164747335" duration="656000" />
+      <workItem from="1562240187381" duration="712000" />
+      <workItem from="1563141361565" duration="393000" />
+      <workItem from="1563374286843" duration="3951000" />
+      <workItem from="1563387654278" duration="79000" />
+      <workItem from="1563401298226" duration="10538000" />
+      <workItem from="1563425729926" duration="808000" />
+      <workItem from="1563475505906" duration="15708000" />
+      <workItem from="1563511548247" duration="1453000" />
+      <workItem from="1563548811656" duration="1847000" />
+      <workItem from="1563552167566" duration="11418000" />
+      <workItem from="1563570201576" duration="15401000" />
+      <workItem from="1563631327517" duration="3974000" />
+      <workItem from="1563725404441" duration="9317000" />
+      <workItem from="1563758883370" duration="50000" />
+      <workItem from="1563759880974" duration="12343000" />
+      <workItem from="1563812611319" duration="930000" />
+      <workItem from="1563815370449" duration="850000" />
+      <workItem from="1563817825746" duration="363000" />
+      <workItem from="1563819191168" duration="12308000" />
+      <workItem from="1563896291647" duration="1744000" />
+      <workItem from="1563978425773" duration="522000" />
+      <workItem from="1563982160824" duration="231000" />
+      <workItem from="1563982905934" duration="301000" />
+      <workItem from="1563983820669" duration="134000" />
+      <workItem from="1563984776936" duration="1851000" />
+      <workItem from="1563992013430" duration="3608000" />
+      <workItem from="1563996757208" duration="18215000" />
+      <workItem from="1564065980900" duration="335000" />
+      <workItem from="1564066461695" duration="2171000" />
+      <workItem from="1564069893127" duration="14123000" />
+      <workItem from="1564337184471" duration="122000" />
+      <workItem from="1564460841838" duration="853000" />
+      <workItem from="1564530858870" duration="6194000" />
+      <workItem from="1564578206280" duration="5888000" />
+      <workItem from="1564590374266" duration="3361000" />
+      <workItem from="1564597947731" duration="4879000" />
+      <workItem from="1564699435309" duration="1446000" />
+      <workItem from="1564706785628" duration="8000" />
+      <workItem from="1564706857137" duration="1137000" />
+      <workItem from="1564744486090" duration="1105000" />
+      <workItem from="1564798391198" duration="614000" />
+      <workItem from="1564832895366" duration="210000" />
+      <workItem from="1564833802371" duration="38000" />
+      <workItem from="1564841152346" duration="348000" />
+      <workItem from="1564859010615" duration="320000" />
+      <workItem from="1565009889468" duration="320000" />
+      <workItem from="1565010459216" duration="1886000" />
+      <workItem from="1565263645848" duration="266000" />
+      <workItem from="1565264675890" duration="1341000" />
+      <workItem from="1565319136028" duration="886000" />
+      <workItem from="1565321260389" duration="1182000" />
+      <workItem from="1565445668474" duration="3028000" />
+      <workItem from="1566169454511" duration="6504000" />
+      <workItem from="1566246316270" duration="106000" />
+      <workItem from="1566270371576" duration="211000" />
+      <workItem from="1566270759506" duration="1000" />
+      <workItem from="1566351959791" duration="2494000" />
+      <workItem from="1566524650252" duration="4000" />
+      <workItem from="1566563306810" duration="1236000" />
+      <workItem from="1566776995683" duration="794000" />
+      <workItem from="1566786911687" duration="420000" />
+      <workItem from="1566788141146" duration="10035000" />
+      <workItem from="1566872228225" duration="461000" />
+      <workItem from="1566943863815" duration="31000" />
+      <workItem from="1567181391426" duration="149000" />
+      <workItem from="1568737898381" duration="328000" />
+      <workItem from="1569272499122" duration="8402000" />
+      <workItem from="1569336916204" duration="8449000" />
+      <workItem from="1569452562252" duration="767000" />
+      <workItem from="1569454058283" duration="180000" />
+      <workItem from="1569454994589" duration="4582000" />
+      <workItem from="1569987253070" duration="1126000" />
+      <workItem from="1570058609661" duration="671000" />
+      <workItem from="1570059766517" duration="477000" />
+      <workItem from="1570066697421" duration="465000" />
+      <workItem from="1570114140592" duration="8373000" />
+      <workItem from="1570136183400" duration="4456000" />
+      <workItem from="1570197780677" duration="592000" />
+      <workItem from="1570205098011" duration="568000" />
+      <workItem from="1570207317577" duration="1735000" />
+      <workItem from="1570232973950" duration="1225000" />
+      <workItem from="1570235578758" duration="1239000" />
+      <workItem from="1570470598089" duration="488000" />
+      <workItem from="1570499650791" duration="249000" />
+      <workItem from="1570577540038" duration="1768000" />
+      <workItem from="1570581575215" duration="1258000" />
+      <workItem from="1570723436670" duration="1538000" />
+      <workItem from="1570755930578" duration="1529000" />
+      <workItem from="1570800513408" duration="482000" />
+      <workItem from="1570801469157" duration="128000" />
+      <workItem from="1570802367995" duration="632000" />
+      <workItem from="1570813052618" duration="250000" />
+      <workItem from="1570917374588" duration="2386000" />
+      <workItem from="1571005008161" duration="260000" />
+      <workItem from="1571249131749" duration="520000" />
+      <workItem from="1571250116480" duration="488000" />
+      <workItem from="1571250745126" duration="46000" />
+      <workItem from="1571250824824" duration="120000" />
+      <workItem from="1571250998680" duration="1825000" />
+      <workItem from="1571254327104" duration="226000" />
+      <workItem from="1571494603772" duration="694000" />
+      <workItem from="1571588921645" duration="1398000" />
+      <workItem from="1571613235133" duration="944000" />
+      <workItem from="1571618613058" duration="2893000" />
+      <workItem from="1571624789445" duration="297000" />
+      <workItem from="1571626693946" duration="802000" />
+      <workItem from="1571653931442" duration="1861000" />
+      <workItem from="1571663098117" duration="659000" />
+      <workItem from="1571830084654" duration="1525000" />
+      <workItem from="1571835952664" duration="334000" />
+      <workItem from="1571836937333" duration="710000" />
+      <workItem from="1571937022463" duration="805000" />
+      <workItem from="1572529302978" duration="319000" />
+      <workItem from="1572818342002" duration="866000" />
+      <workItem from="1574422355680" duration="399000" />
+      <workItem from="1575400165109" duration="253000" />
+      <workItem from="1576088224162" duration="11025000" />
+      <workItem from="1576236970768" duration="899000" />
+      <workItem from="1576415482593" duration="1773000" />
+      <workItem from="1576500422431" duration="3617000" />
+      <workItem from="1576546923501" duration="6370000" />
+      <workItem from="1576606055307" duration="8860000" />
+      <workItem from="1576697758333" duration="556000" />
+      <workItem from="1576853297278" duration="143000" />
+      <workItem from="1577548508772" duration="695000" />
+      <workItem from="1577994301064" duration="18000" />
+      <workItem from="1578052271041" duration="658000" />
+      <workItem from="1579872647363" duration="171000" />
+      <workItem from="1579873342414" duration="168000" />
+      <workItem from="1580045382244" duration="608000" />
+      <workItem from="1580046784171" duration="983000" />
+      <workItem from="1581001336511" duration="6194000" />
+      <workItem from="1581012817989" duration="1157000" />
+      <workItem from="1581076260788" duration="5327000" />
+      <workItem from="1581088348956" duration="328000" />
+      <workItem from="1581531574752" duration="147000" />
+      <workItem from="1581949894596" duration="370000" />
+      <workItem from="1581950388459" duration="5000" />
+      <workItem from="1582290836604" duration="1174000" />
+      <workItem from="1582554652969" duration="517000" />
+      <workItem from="1585018384003" duration="12634000" />
+      <workItem from="1599597541026" duration="726000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="458" y="182" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585027441873">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="458" y="182" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1440.795@0.23.1440.795" timestamp="1585027441873" />
+    <state width="1398" height="251" key="GridCell.Tab.0.bottom" timestamp="1582295174003">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.0.bottom/0.23.1440.792@0.23.1440.792" timestamp="1582293361886" />
+    <state width="1398" height="251" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1582295174003" />
+    <state width="1398" height="251" key="GridCell.Tab.0.center" timestamp="1582295174002">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.0.center/0.23.1440.792@0.23.1440.792" timestamp="1582293361885" />
+    <state width="1398" height="251" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1582295174002" />
+    <state width="1398" height="251" key="GridCell.Tab.0.left" timestamp="1582295174001">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.0.left/0.23.1440.792@0.23.1440.792" timestamp="1582293361884" />
+    <state width="1398" height="251" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1582295174001" />
+    <state width="1398" height="251" key="GridCell.Tab.0.right" timestamp="1582295174002">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.0.right/0.23.1440.792@0.23.1440.792" timestamp="1582293361885" />
+    <state width="1398" height="251" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1582295174002" />
+    <state width="1398" height="251" key="GridCell.Tab.1.bottom" timestamp="1582295174006">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.1.bottom/0.23.1440.795@0.23.1440.795" timestamp="1582295174006" />
+    <state width="1398" height="251" key="GridCell.Tab.1.center" timestamp="1582295174004">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.1.center/0.23.1440.795@0.23.1440.795" timestamp="1582295174004" />
+    <state width="1398" height="251" key="GridCell.Tab.1.left" timestamp="1582295174004">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.1.left/0.23.1440.795@0.23.1440.795" timestamp="1582295174004" />
+    <state width="1398" height="251" key="GridCell.Tab.1.right" timestamp="1582295174005">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.1.right/0.23.1440.795@0.23.1440.795" timestamp="1582295174005" />
+    <state width="1398" height="251" key="GridCell.Tab.2.bottom" timestamp="1582295174007">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.2.bottom/0.23.1440.795@0.23.1440.795" timestamp="1582295174007" />
+    <state width="1398" height="251" key="GridCell.Tab.2.center" timestamp="1582295174007">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.2.center/0.23.1440.795@0.23.1440.795" timestamp="1582295174007" />
+    <state width="1398" height="251" key="GridCell.Tab.2.left" timestamp="1582295174006">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.2.left/0.23.1440.795@0.23.1440.795" timestamp="1582295174006" />
+    <state width="1398" height="251" key="GridCell.Tab.2.right" timestamp="1582295174007">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.2.right/0.23.1440.795@0.23.1440.795" timestamp="1582295174007" />
+    <state x="386" y="184" width="816" height="540" key="find.popup" timestamp="1585022559436">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="386" y="184" width="816" height="540" key="find.popup/0.23.1440.795@0.23.1440.795" timestamp="1585022559436" />
+    <state x="386" y="185" width="667" height="476" key="find.popup/0.23.1440.801@0.23.1440.801" timestamp="1576549310663" />
+    <state x="385" y="145" width="670" height="676" key="search.everywhere.popup" timestamp="1576417017886">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="385" y="145" width="670" height="676" key="search.everywhere.popup/0.23.1440.798@0.23.1440.798" timestamp="1576417017886" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Template/VentasConsignacion/view.ctp</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.14097497" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,64 @@
+html body {
+    background: #117cc4;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #117cc4 0%, #4bcaed 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #117cc4), color-stop(100%, #4bcaed));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg, #117cc4 0%, #4bcaed 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg, #117cc4 0%, #4bcaed 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg, #117cc4 0%, #4bcaed 100%);
+    /* IE10+ */
+    background: linear-gradient(135deg, #117cc4 0%, #4bcaed 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#117cc4', endColorstr='#4bcaed', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+	
+	padding:0;
+	margin:0;
+}
+
+.white {
+	color:#FFF;
+}
+
+.popover {
+	box-shadow: 0px 0px 10px #333333 !important;
+	background: #FFB300;
+	padding: 20px;
+	font-weight:bold;
+	color:#FFF;
+	min-width:200px;
+	border:0;
+}
+
+.popover.bottom > .arrow:after {
+	border-bottom-color:#FFB300;
+}
+
+.popover.bottom > .arrow:after {
+	border-bottom-color:#FFB300;
+}
+
+.popover.left > .arrow:after {
+	border-left-color:#FFB300;
+}
+
+.popover.right > .arrow:after {
+    border-right-color: #FFB300;
+}
+
+.popover.top > .arrow:after {
+	border-top-color: #FFB300;
+}
+
+.jumbotron {
+	background:none;
+	color:#FFF;
+}
+
+.jumbotron p {
+	opacity:0.7;
+}

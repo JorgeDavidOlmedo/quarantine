@@ -1,0 +1,246 @@
+2018-05-23 08:09:51 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'academia_bancard.incripciones' doesn't exist
+Stack Trace:
+#0 /Library/WebServer/Documents/academia-bancard/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'incripciones', Array, Object(Cake\Database\Schema\Table))
+#1 /Library/WebServer/Documents/academia-bancard/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('incripciones', Array)
+#2 /Library/WebServer/Documents/academia-bancard/vendor/cakephp/cakephp/src/ORM/Table.php(440): Cake\Database\Schema\CachedCollection->describe('incripciones')
+#3 /Library/WebServer/Documents/academia-bancard/vendor/cakephp/cakephp/src/ORM/Table.php(518): Cake\ORM\Table->schema()
+#4 /Library/WebServer/Documents/academia-bancard/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(210): Cake\ORM\Table->primaryKey()
+#5 /Library/WebServer/Documents/academia-bancard/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Library/WebServer/Documents/academia-bancard/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'incripciones', 'Incripciones')
+#7 /Library/WebServer/Documents/academia-bancard/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Incripciones')
+#8 /Library/WebServer/Documents/academia-bancard/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('Incripciones')
+#9 /Library/WebServer/Documents/academia-bancard/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('Incripciones', 0)
+#10 /Library/WebServer/Documents/academia-bancard/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#11 [internal function]: Bake\Shell\BakeShell->all('incripciones')
+#12 /Library/WebServer/Documents/academia-bancard/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#13 /Library/WebServer/Documents/academia-bancard/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /Library/WebServer/Documents/academia-bancard/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /Library/WebServer/Documents/academia-bancard/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /Library/WebServer/Documents/academia-bancard/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2019-05-27 14:08:33 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bus_system.empresas' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'empresas', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('empresas', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/ORM/Table.php(440): Cake\Database\Schema\CachedCollection->describe('empresas')
+#3 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/ORM/Table.php(518): Cake\ORM\Table->schema()
+#4 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(210): Cake\ORM\Table->primaryKey()
+#5 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'empresas', 'Empresas')
+#7 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Empresas')
+#8 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('Empresas')
+#9 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('empresas', 0)
+#10 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#11 [internal function]: Bake\Shell\BakeShell->all('empresas')
+#12 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2019-05-27 16:21:01 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bus_system.countries' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'countries', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('countries', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/ORM/Table.php(440): Cake\Database\Schema\CachedCollection->describe('countries')
+#3 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/ORM/Table.php(518): Cake\ORM\Table->schema()
+#4 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(210): Cake\ORM\Table->primaryKey()
+#5 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'countries', 'Countries')
+#7 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Countries')
+#8 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('Countries')
+#9 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('countries', 0)
+#10 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#11 [internal function]: Bake\Shell\BakeShell->all('countries')
+#12 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2019-05-28 19:49:48 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bus_system.pri_percio' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'pri_percio', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('pri_percio', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/ORM/Table.php(440): Cake\Database\Schema\CachedCollection->describe('pri_percio')
+#3 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/ORM/Table.php(518): Cake\ORM\Table->schema()
+#4 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(210): Cake\ORM\Table->primaryKey()
+#5 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'pri_percio', 'PriPercio')
+#7 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('PriPercio')
+#8 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('PriPercio')
+#9 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('pri_percio', 0)
+#10 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#11 [internal function]: Bake\Shell\BakeShell->all('pri_percio')
+#12 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2019-05-28 19:49:56 Warning: Warning (512): Association property name "precio" clashes with field of same name of table "pri_precio". You should explicitly specify the "propertyName" option. in [/Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/ORM/Association.php, line 455]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Cake\ORM\Association::property() - CORE/src/ORM/Association.php, line 455
+Bake\Shell\Task\ModelTask::getEntityPropertySchema() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 510
+Bake\Shell\Task\ModelTask::getTableContext() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 132
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 110
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 257
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 52
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 260
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 227
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2019-05-28 19:49:56 Warning: Warning (512): Association property name "precio" clashes with field of same name of table "pri_precio". You should explicitly specify the "propertyName" option. in [/Applications/XAMPP/xamppfiles/htdocs/sistema_venta_pasajes/vendor/cakephp/cakephp/src/ORM/Association.php, line 455]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Cake\ORM\Association::property() - CORE/src/ORM/Association.php, line 455
+Bake\Utility\Model\AssociationFilter::filterAssociations() - ROOT/vendor/cakephp/bake/src/Utility/Model/AssociationFilter.php, line 96
+Bake\Shell\Task\TemplateTask::_filteredAssociations() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 473
+Bake\Shell\Task\TemplateTask::_loadController() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 298
+Bake\Shell\Task\TemplateTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 148
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 259
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 52
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 260
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 227
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2019-07-18 15:30:19 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'integralix.detalles_pedido_ventas' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'detalles_pedido...', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('detalles_pedido...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/ORM/Table.php(440): Cake\Database\Schema\CachedCollection->describe('detalles_pedido...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/ORM/Table.php(518): Cake\ORM\Table->schema()
+#4 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(210): Cake\ORM\Table->primaryKey()
+#5 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'detalles_pedido...', 'DetallesPedidoV...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('DetallesPedidoV...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('DetallesPedidoV...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('detalles_pedido...', 0)
+#10 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#11 [internal function]: Bake\Shell\BakeShell->all('detalles_pedido...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/pdv/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2019-07-19 11:24:36 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'integralix.movimientos_cuentas_fondos' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'movimientos_cue...', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('movimientos_cue...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/ORM/Table.php(440): Cake\Database\Schema\CachedCollection->describe('movimientos_cue...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/ORM/Table.php(518): Cake\ORM\Table->schema()
+#4 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(210): Cake\ORM\Table->primaryKey()
+#5 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'movimientos_cue...', 'MovimientosCuen...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('MovimientosCuen...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('MovimientosCuen...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('movimientos_cue...', 0)
+#10 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#11 [internal function]: Bake\Shell\BakeShell->all('movimientos_cue...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/pdv/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2019-07-24 12:26:49 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'integralix.aperturas_cjas' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'aperturas_cjas', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('aperturas_cjas', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/ORM/Table.php(440): Cake\Database\Schema\CachedCollection->describe('aperturas_cjas')
+#3 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/ORM/Table.php(518): Cake\ORM\Table->schema()
+#4 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(210): Cake\ORM\Table->primaryKey()
+#5 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'aperturas_cjas', 'AperturasCjas')
+#7 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('AperturasCjas')
+#8 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('AperturasCjas')
+#9 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('aperturas_cjas', 0)
+#10 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#11 [internal function]: Bake\Shell\BakeShell->all('aperturas_cjas')
+#12 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/pdv/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/pdv/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2020-03-24 01:22:17 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '20.prd.100', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Database/Connection.php(322): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(946): Cake\Database\Connection->schemaCollection()
+#8 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(898): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(202): Bake\Shell\Task\ModelTask->listAll()
+#10 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#11 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'ingresos_pais', 'IngresosPais')
+#12 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('IngresosPais')
+#13 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('IngresosPais')
+#14 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('ingresos_pais', 0)
+#15 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#16 [internal function]: Bake\Shell\BakeShell->all('ingresos_pais')
+#17 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#18 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#20 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#21 /Applications/XAMPP/xamppfiles/htdocs/quarantine/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#22 {main}
+
+
+2020-03-24 01:22:32 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '20.prd.100', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Database/Connection.php(322): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(946): Cake\Database\Connection->schemaCollection()
+#8 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(898): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(202): Bake\Shell\Task\ModelTask->listAll()
+#10 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#11 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'ingresos_pais', 'IngresosPais')
+#12 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('IngresosPais')
+#13 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('IngresosPais')
+#14 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('ingresos_pais', 0)
+#15 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#16 [internal function]: Bake\Shell\BakeShell->all('ingresos_pais')
+#17 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#18 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#20 /Applications/XAMPP/xamppfiles/htdocs/quarantine/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#21 /Applications/XAMPP/xamppfiles/htdocs/quarantine/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#22 {main}
+
+
