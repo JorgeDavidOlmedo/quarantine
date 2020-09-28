@@ -169,7 +169,7 @@ class AppController extends Controller
 
         $id_empresa = $this->request->session()->read('id_empresa');
         $empresa = $this->request->session()->read('empresa');
-        $this->request->session()->write("aplicacion","Empresa: ".$this->request->session()->read('empresa')." / "."PDV");
+        $this->request->session()->write("aplicacion","12 APOSTOLES");
         $inicial = $this->request->session()->read("fecha_ini");
         $final = $this->request->session()->read("fecha_fin");
 
@@ -185,7 +185,7 @@ class AppController extends Controller
                 }
             }
         }
-        $this->request->session()->write("aplicacion","Empresa: ".$this->request->session()->read('empresa')." / "."PDV");
+        $this->request->session()->write("aplicacion","12 APOSTOLES");
 
     }
 

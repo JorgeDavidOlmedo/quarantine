@@ -7,22 +7,61 @@ app.controller('ingresosIndex',function ($scope,kConstant,$http,$window,$filter,
 
     $scope.ingresos = [];
     $scope.getIngresos = function(){
-        $http.get(kConstant.url+"ingresosPais/getIngresos/0").
+        $scope.datos = {
+            libro:null
+        }
+        $http.post(kConstant.url+"ingresosPais/getIngresos",$scope.datos).
         then(function(response) {
+            console.log(response.data);
             $scope.ingresos = response.data.ingresos;
             setTimeout(function(){  $("#search").focus(); }, 500);
         });
     }
 
+    $scope.agregarBasutismo = function(){
+        $window.location.href = kConstant.url+"bautismos2/add";
+    }
     $scope.getIngresosBusqueda = function(){
-        var search = $("#search").val();
-        if(search==null || search==""){
-            search = 0;
+
+        var libro = $("#libro").val();
+        if(libro==null || libro==""){
+            libro=null;
         }
-        $http.get(kConstant.url+"ingresosPais/getIngresos/"+search).
+
+        var folio = $("#folio").val();
+        if(folio==null || folio==""){
+            folio=null;
+        }
+
+        var numero = $("#numero").val();
+        if(numero==null || numero==""){
+            numero=null;
+        }
+
+        var de_don = $("#don").val();
+        if(de_don==null || de_don==""){
+            de_don=null;
+        }
+
+        var donha = $("#donha").val();
+        if(donha==null || donha==""){
+            donha=null;
+        }
+
+
+        $scope.datos = {
+            libro:libro,
+            folio:folio,
+            numero:numero,
+            de_don:de_don,
+            donha:donha
+
+        }
+        $http.post(kConstant.url+"ingresosPais/getIngresos/",$scope.datos).
         then(function(response) {
+            //console.log(response.data);
             $scope.ingresos = response.data.ingresos;
-            setTimeout(function(){  $("#search").focus(); }, 500);
+            //setTimeout(function(){  $("#libro").focus(); }, 500);
         });
     }
 

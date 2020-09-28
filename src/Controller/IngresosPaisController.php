@@ -148,37 +148,58 @@ class IngresosPaisController extends AppController
     }
 
 
-    public function getIngresos($buscar = null)
+    public function getIngresos()
     {
         try{
             $ingresos = array();
-            $id_empresa = $this->request->session()->read('id_empresa');
             $results=null;
             $connection = ConnectionManager::get('default');
-            $user_id = $this->request->session()->read('Auth.User.id');
+            $postdata = file_get_contents("php://input");
+            $request = json_decode($postdata);
 
-            if(empty($buscar) || $buscar=="0"){
-                $sql = "SELECT *
-                FROM ingresos_pais WHERE estado=1 ORDER BY id desc LIMIT 100";
-
-            }else{
-
-                $sql = "SELECT *
-                FROM ingresos_pais
-                WHERE 
-                estado=1 AND
-                (nombre like '%".$buscar."%' OR cedula like '%".$buscar."%')
-                ORDER BY nombre desc LIMIT 100";
-
+            $filtro = " id>0 AND ";
+            if(!empty($request->libro)){
+                $filtro.="libro LIKE '%".$request->libro."%' AND ";
             }
+
+            if(!empty($request->folio)){
+                $filtro.="folio LIKE '%".$request->folio."%' AND ";
+            }
+
+            if(!empty($request->numero)){
+                $filtro.="numero LIKE '%".$request->numero."%' AND ";
+            }
+
+            if(!empty($request->de_don)){
+                $filtro.="de_don LIKE '%".$request->de_don."%' AND ";
+            }
+
+            if(!empty($request->donha)){
+                $filtro.="donha LIKE '%".$request->donha."%' AND ";
+            }
+
+
+            $sql = "SELECT *
+            FROM bautismos2
+            WHERE 
+            $filtro
+            estado=1 
+            ORDER BY id desc LIMIT 100";
+
             $results = $connection->execute($sql);
 
             foreach ($results as $value){
                 $ingresos[] = array("id"=>$value['id'],
-                    "fecha"=>date('d/m/Y H:i:s',strtotime($value['fecha'])),
-                    "nombre"=>$value['nombre'],
-                    "cedula"=>$value['cedula'],
-                    "usuario"=>$value['usuario']
+                    "el_dia"=>date('d/m/Y',strtotime($value['el_dia'])),
+                    "libro"=>$value['libro'],
+                    "numero"=>$value['numero'],
+                    "folio"=>$value['folio'],
+                    "presbitero"=>$value['presbitero'],
+                    "bautizo_a"=>$value['bautizo_a'],
+                    "nacido_en"=>$value['nacio_en'],
+                    "de_don"=>$value['de_don'],
+                    "donha"=>$value['donha'],
+                    "dia_bautismo"=>date('d/m/Y',strtotime($value['dia_bautismo'])),
                 );
             }
 

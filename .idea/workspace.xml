@@ -2,309 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26a6ea58-3334-4db8-a9f4-8c63519e0955" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/pdv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pdv.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AjustesExistenciasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AperturasCajasController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AppController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AsientosController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CajasAddController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CajasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ClientesController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CobrosController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ComprasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ComprasTmpController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ConfiguracionContableController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ConfiguracionSistemaController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CuentasCajasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CuentasCorrientesController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CuentasFondosController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CursosController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DepositosController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesAnticipoClientesController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesAnticipoProveedoresController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesAsientosController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesCajasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesCobrosController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesComprasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesMovimientosBancosController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesPedidosConsignacionController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesPedidosVentasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesPreVentasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesTesoreriasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesVentasConsignacionController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DetallesVentasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/LocalesController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/LockProductos.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MonedasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MovimientoCuentasFondosController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MovimientosBancosController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PedidoVentasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PlanDeCuentasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PreVentasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ProductosController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ProveedoresController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/StockController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/TesoreriasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/TimbradosController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/VencimientosComprasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/VencimientosVentasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/VentasConsignacionController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/VentasController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/VentasTmpController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/AjustesExistenciasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/AperturasCajasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/AsientosTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/CajasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/ClientesTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/CobrosTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/ComprasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/ComprasTmpTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/ConfiguracionContableTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/ConfiguracionSistemaTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/CuentasCajasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/CuentasCorrientesTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/CuentasFondosTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/CursosTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/DepositosTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesAnticipoClientesTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesAnticipoProveedoresTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesAsientosTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesCajasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesCobrosTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesComprasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesMovimientosBancosTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesPedidosConsignacionTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesPedidosVentasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesPreVentasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesTesoreriasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesVentasConsignacionTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/DetallesVentasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/FormasPagosTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/LocalesTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/MonedasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/MovimientoCuentasFondosTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/MovimientosBancosTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/PedidoVentasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/PlanDeCuentasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/PreVentasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/ProductosTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/ProveedoresTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/StockTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/TesoreriasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/TimbradosTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/VencimientosComprasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/VencimientosVentasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/VentasConsignacionTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/VentasTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Table/VentasTmpTable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/AjustesExistencias/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/AjustesExistencias/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/AjustesExistencias/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/AjustesExistencias/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/AperturasCajas/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/AperturasCajas/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/AperturasCajas/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/AperturasCajas/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Asientos/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Asientos/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Asientos/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Asientos/nodata.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Asientos/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Cajas/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Cajas/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Cajas/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Cajas/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Clientes/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Clientes/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Clientes/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Clientes/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Cobros/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Cobros/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Cobros/estado.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Cobros/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Cobros/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Compras/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Compras/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Compras/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Compras/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/ComprasTmp/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/ComprasTmp/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/ComprasTmp/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/ComprasTmp/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/ConfiguracionContable/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/ConfiguracionContable/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/ConfiguracionContable/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/ConfiguracionContable/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/ConfiguracionSistema/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/ConfiguracionSistema/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/ConfiguracionSistema/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/ConfiguracionSistema/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/CuentasCajas/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/CuentasCajas/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/CuentasCajas/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/CuentasCajas/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/CuentasCorrientes/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/CuentasCorrientes/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/CuentasCorrientes/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/CuentasCorrientes/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/CuentasFondos/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/CuentasFondos/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/CuentasFondos/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/CuentasFondos/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Cursos/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Cursos/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Cursos/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Cursos/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Depositos/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Depositos/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Depositos/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Depositos/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAnticipoClientes/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAnticipoClientes/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAnticipoClientes/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAnticipoClientes/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAnticipoProveedores/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAnticipoProveedores/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAnticipoProveedores/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAnticipoProveedores/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAsientos/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAsientos/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAsientos/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesAsientos/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCajas/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCajas/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCajas/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCajas/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCobros/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCobros/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCobros/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCobros/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCompras/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCompras/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCompras/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesCompras/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesMovimientosBancos/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesMovimientosBancos/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesMovimientosBancos/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesMovimientosBancos/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPedidosConsignacion/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPedidosConsignacion/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPedidosConsignacion/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPedidosConsignacion/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPedidosVentas/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPedidosVentas/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPedidosVentas/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPedidosVentas/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPreVentas/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPreVentas/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPreVentas/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesPreVentas/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesTesorerias/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesTesorerias/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesTesorerias/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesTesorerias/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesVentas/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesVentas/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesVentas/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesVentas/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesVentasConsignacion/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesVentasConsignacion/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesVentasConsignacion/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/DetallesVentasConsignacion/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/FormasPagos/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/FormasPagos/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/FormasPagos/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/FormasPagos/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Locales/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Locales/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Locales/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Locales/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Monedas/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Monedas/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Monedas/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Monedas/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/MovimientoCuentasFondos/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/MovimientoCuentasFondos/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/MovimientoCuentasFondos/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/MovimientoCuentasFondos/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/MovimientosBancos/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/MovimientosBancos/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/MovimientosBancos/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/MovimientosBancos/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/PedidoVentas/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/PedidoVentas/copy.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/PedidoVentas/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/PedidoVentas/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/PedidoVentas/mapas.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/PedidoVentas/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Perfil/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Perfil/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Perfil/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Perfil/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/PlanDeCuentas/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/PlanDeCuentas/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/PlanDeCuentas/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/PlanDeCuentas/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/PreVentas/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/PreVentas/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/PreVentas/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/PreVentas/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Productos/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Productos/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Productos/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Productos/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Proveedores/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Proveedores/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Proveedores/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Proveedores/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Stock/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Stock/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Stock/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Stock/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Tesorerias/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Tesorerias/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Tesorerias/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Tesorerias/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Timbrados/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Timbrados/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Timbrados/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Timbrados/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/VencimientosCompras/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/VencimientosCompras/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/VencimientosCompras/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/VencimientosCompras/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/VencimientosVentas/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/VencimientosVentas/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/VencimientosVentas/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/VencimientosVentas/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/pos.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/posconsignacion.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/print-ticket.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/ticket_interno.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/ticket_pedido.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Ventas/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/VentasConsignacion/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/VentasConsignacion/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/VentasConsignacion/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/VentasConsignacion/posconsignacion.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/VentasConsignacion/view.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/VentasTmp/add.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/VentasTmp/edit.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/VentasTmp/index.ctp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/VentasTmp/view.ctp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/IngresosPaisController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/IngresosPaisController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/UsuariosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UsuariosController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Entity/IngresosPai.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Entity/IngresosPai.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Table/IngresosPaisTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Table/IngresosPaisTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Element/menu.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Template/Element/menu.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/IngresosPais/add.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Template/IngresosPais/add.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/IngresosPais/edit.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Template/IngresosPais/edit.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/IngresosPais/index.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Template/IngresosPais/index.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/IngresosPais/view.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Template/IngresosPais/view.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Layout/default.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Template/Layout/default.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Pages/home.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Template/Pages/home.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/Usuarios/login.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Template/Usuarios/login.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Fixture/IngresosPaisFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Fixture/IngresosPaisFixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestCase/Controller/IngresosPaisControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase/Controller/IngresosPaisControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestCase/Model/Table/IngresosPaisTableTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase/Model/Table/IngresosPaisTableTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_panels" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_panels" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_requests" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_requests" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_empresas" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_empresas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_ingresos_pais" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_ingresos_pais" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_usuarios" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_usuarios" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_usuarios_empresas" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_usuarios_empresas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_debug_kit_en__u_s" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_debug_kit_en__u_s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/debug_kit.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/debug_kit.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/js/controladores/menu/controllerHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/js/controladores/menu/controllerHome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/img/tetagua.png" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/img/tetagua.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/js/controladores/ingresos/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/js/controladores/ingresos/controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/js/controladores/pedidos/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/js/controladores/pedidos/controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/quarantine.sql" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/quarantine.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -340,6 +71,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PHPCodeSnifferBlackList">
+    <option name="filePaths">
+      <list>
+        <option value="$PROJECT_DIR$/src/Controller/PagesController.php" />
+      </list>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -384,6 +122,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -632,7 +371,12 @@
       <workItem from="1582290836604" duration="1174000" />
       <workItem from="1582554652969" duration="517000" />
       <workItem from="1585018384003" duration="12634000" />
-      <workItem from="1599597541026" duration="726000" />
+      <workItem from="1599597541026" duration="948000" />
+      <workItem from="1601241086136" duration="1871000" />
+      <workItem from="1601248271786" duration="1053000" />
+      <workItem from="1601250275675" duration="2337000" />
+      <workItem from="1601295803633" duration="3569000" />
+      <workItem from="1601304406587" duration="2110000" />
     </task>
     <servers />
   </component>
@@ -640,71 +384,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="458" y="182" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585027441873">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state x="320" y="91" key="#PHP_CodeSniffer_Ignored_Files" timestamp="1601253214824">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state x="458" y="182" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1440.795@0.23.1440.795" timestamp="1585027441873" />
-    <state width="1398" height="251" key="GridCell.Tab.0.bottom" timestamp="1582295174003">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state x="320" y="91" key="#PHP_CodeSniffer_Ignored_Files/0.23.1440.806@0.23.1440.806" timestamp="1601253214824" />
+    <state x="458" y="188" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601299340851">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state width="1398" height="251" key="GridCell.Tab.0.bottom/0.23.1440.792@0.23.1440.792" timestamp="1582293361886" />
-    <state width="1398" height="251" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1582295174003" />
-    <state width="1398" height="251" key="GridCell.Tab.0.center" timestamp="1582295174002">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state x="458" y="188" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1440.806@0.23.1440.806" timestamp="1601299340851" />
+    <state x="378" y="48" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601252299612">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state width="1398" height="251" key="GridCell.Tab.0.center/0.23.1440.792@0.23.1440.792" timestamp="1582293361885" />
-    <state width="1398" height="251" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1582295174002" />
-    <state width="1398" height="251" key="GridCell.Tab.0.left" timestamp="1582295174001">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state x="378" y="48" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.806@0.23.1440.806" timestamp="1601252299612" />
+    <state x="383" y="188" width="674" height="476" key="find.popup" timestamp="1601253245705">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state width="1398" height="251" key="GridCell.Tab.0.left/0.23.1440.792@0.23.1440.792" timestamp="1582293361884" />
-    <state width="1398" height="251" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1582295174001" />
-    <state width="1398" height="251" key="GridCell.Tab.0.right" timestamp="1582295174002">
-      <screen x="0" y="23" width="1440" height="795" />
-    </state>
-    <state width="1398" height="251" key="GridCell.Tab.0.right/0.23.1440.792@0.23.1440.792" timestamp="1582293361885" />
-    <state width="1398" height="251" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1582295174002" />
-    <state width="1398" height="251" key="GridCell.Tab.1.bottom" timestamp="1582295174006">
-      <screen x="0" y="23" width="1440" height="795" />
-    </state>
-    <state width="1398" height="251" key="GridCell.Tab.1.bottom/0.23.1440.795@0.23.1440.795" timestamp="1582295174006" />
-    <state width="1398" height="251" key="GridCell.Tab.1.center" timestamp="1582295174004">
-      <screen x="0" y="23" width="1440" height="795" />
-    </state>
-    <state width="1398" height="251" key="GridCell.Tab.1.center/0.23.1440.795@0.23.1440.795" timestamp="1582295174004" />
-    <state width="1398" height="251" key="GridCell.Tab.1.left" timestamp="1582295174004">
-      <screen x="0" y="23" width="1440" height="795" />
-    </state>
-    <state width="1398" height="251" key="GridCell.Tab.1.left/0.23.1440.795@0.23.1440.795" timestamp="1582295174004" />
-    <state width="1398" height="251" key="GridCell.Tab.1.right" timestamp="1582295174005">
-      <screen x="0" y="23" width="1440" height="795" />
-    </state>
-    <state width="1398" height="251" key="GridCell.Tab.1.right/0.23.1440.795@0.23.1440.795" timestamp="1582295174005" />
-    <state width="1398" height="251" key="GridCell.Tab.2.bottom" timestamp="1582295174007">
-      <screen x="0" y="23" width="1440" height="795" />
-    </state>
-    <state width="1398" height="251" key="GridCell.Tab.2.bottom/0.23.1440.795@0.23.1440.795" timestamp="1582295174007" />
-    <state width="1398" height="251" key="GridCell.Tab.2.center" timestamp="1582295174007">
-      <screen x="0" y="23" width="1440" height="795" />
-    </state>
-    <state width="1398" height="251" key="GridCell.Tab.2.center/0.23.1440.795@0.23.1440.795" timestamp="1582295174007" />
-    <state width="1398" height="251" key="GridCell.Tab.2.left" timestamp="1582295174006">
-      <screen x="0" y="23" width="1440" height="795" />
-    </state>
-    <state width="1398" height="251" key="GridCell.Tab.2.left/0.23.1440.795@0.23.1440.795" timestamp="1582295174006" />
-    <state width="1398" height="251" key="GridCell.Tab.2.right" timestamp="1582295174007">
-      <screen x="0" y="23" width="1440" height="795" />
-    </state>
-    <state width="1398" height="251" key="GridCell.Tab.2.right/0.23.1440.795@0.23.1440.795" timestamp="1582295174007" />
-    <state x="386" y="184" width="816" height="540" key="find.popup" timestamp="1585022559436">
-      <screen x="0" y="23" width="1440" height="795" />
-    </state>
-    <state x="386" y="184" width="816" height="540" key="find.popup/0.23.1440.795@0.23.1440.795" timestamp="1585022559436" />
-    <state x="386" y="185" width="667" height="476" key="find.popup/0.23.1440.801@0.23.1440.801" timestamp="1576549310663" />
-    <state x="385" y="145" width="670" height="676" key="search.everywhere.popup" timestamp="1576417017886">
-      <screen x="0" y="23" width="1440" height="798" />
-    </state>
-    <state x="385" y="145" width="670" height="676" key="search.everywhere.popup/0.23.1440.798@0.23.1440.798" timestamp="1576417017886" />
+    <state x="383" y="188" width="674" height="476" key="find.popup/0.23.1440.806@0.23.1440.806" timestamp="1601253245705" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

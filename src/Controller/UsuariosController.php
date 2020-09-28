@@ -305,5 +305,34 @@ class UsuariosController extends AppController
     }
 
 
+    public function bautismo($usuario = null)
+    {
+
+        $results=null;
+        $connection = ConnectionManager::get('default');
+        $id_empresa = $this->request->session()->read('id_empresa');
+
+
+        $sql="SELECT * FROM bautismos ORDER BY id DESC";
+        $results = $connection->execute($sql);
+
+        $resultado_valor = array();
+        foreach ($results as $value){
+          //echo $value['id']."<br>";
+          $fecha = $value['dia_bautismo'];
+          $fecha = explode("/",$fecha);
+          $fecha = $fecha[1]."-".$fecha[0]."-".$fecha[2];
+          echo $fecha."<br>";
+        }
+
+        $valores = $resultado_valor;
+        $this->set([
+            'valores' => $valores,
+            '_serialize' => ['valores']
+        ]);
+        $this->viewClass = 'Json';
+        $this->render();
+
+    }
 
 }

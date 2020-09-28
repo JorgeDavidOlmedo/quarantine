@@ -23,7 +23,7 @@ $hoy = date("Y-m-d");
                     <span class="icon-bar"></span>
                 </button>
 
-                <?php echo $this->Html->link('QUARANTINE PY',array('controller'=>'pages', 'action'=>'index'), array('class'=>'navbar-brand', 'title'=>__("QUARANTINE PY", true)));?>
+                <?php echo $this->Html->link('12 APOSTOLES',array('controller'=>'pages', 'action'=>'index'), array('class'=>'navbar-brand', 'title'=>__("BAUTISMOS", true)));?>
             </div>
             <div class="collapse navbar-collapse bs-example-js-navbar-collapse">
                 <ul class="nav navbar-nav">
@@ -35,7 +35,10 @@ $hoy = date("Y-m-d");
 
 
                             <li><a  <?= $this->Html->link($this->Html->tag('span','',
-                                        ['class' => '']).'INGRESOS AL PAÍS', ['controller' => 'IngresosPais','action' => 'index'],['escape' => false])?></a></li>
+                                        ['class' => '']).'LISTAR BAUTISMOS', ['controller' => 'Bautismos2','action' => 'index'],['escape' => false])?></a></li>
+                            <li class="divider"></li>
+                            <li><a  <?= $this->Html->link($this->Html->tag('span','',
+                                        ['class' => '']).'AGREGAR BAUTISMO', ['controller' => 'Bautismos2','action' => 'add'],['escape' => false])?></a></li>
                             <li class="divider"></li>
 
 

@@ -31,32 +31,7 @@ $final = $this->request->session()->read("fecha_fin");
        </div>
 
        <div class="wrapper wrapper-content">
- 
 
-            <div class="row">
-
-                    <div class="col-lg-3">
-                        <div class="ibox float-e-margins consul">
-                            <div class="ibox-content" ng-click="ingresar()">
-                                    <h1 class="no-margins"><strong>INGRESAR AL PAÍS</strong></h1>
-                                <div class="stat-percent font-bold text-success"><i class=""></i></div>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-        <div class="col-lg-3">
-            <div class="ibox float-e-margins consul">
-                <div class="ibox-content" ng-click="consultaIngresos()">
-                    <h1 class="no-margins"><strong>CONSULTAS DE INGRESO</strong></h1>
-                    <div class="stat-percent font-bold text-success"><i class=""></i></div>
-
-                </div>
-            </div>
-        </div>
-
-       </div>
 
    </div>
 
